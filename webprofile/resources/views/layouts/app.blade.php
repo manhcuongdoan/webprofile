@@ -23,7 +23,7 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <div><img src="/png/Webprofile.png" style="max-height:35px"></div>
                     <div class="pl-2 pt-1">webprofile</div>
@@ -39,19 +39,12 @@
                             <a class="nav-link" href="#">Tạo profile <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Việc làm</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Các công ty</a>
                         </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <!-- For Employer -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Trang nhà tuyển dụng</a>
-                        </li>
                         <!-- Authentication Links -->
                         @guest
                         <li class="nav-item">
@@ -65,13 +58,13 @@
                         @else
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }} <span class="caret"></span>
+                                {{ Auth::user()->username }} <span class="caret"></span>
                             </a>
-
+                            
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
+                                    {{ __('Đăng xuất') }}
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -80,7 +73,10 @@
                             </div>
                         </li>
                         @endguest
-
+                        <!-- For Employer -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trang nhà tuyển dụng</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -90,7 +86,7 @@
             @yield('content')
         </main>
         @include('layouts.footer')
-        
+
     </div>
 </body>
 

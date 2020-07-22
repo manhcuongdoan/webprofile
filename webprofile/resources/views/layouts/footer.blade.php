@@ -7,12 +7,12 @@
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
+                <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com">
                     <i class="fa fa-facebook-f"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
+                <a class="btn-floating btn-tw mx-1" href="https://twitter.com">
                     <i class="fa fa-twitter"> </i>
                 </a>
             </li>
@@ -22,12 +22,12 @@
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
+                <a class="btn-floating btn-li mx-1" href="https://vn.linkedin.com">
                     <i class="fa fa-linkedin"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1">
+                <a class="btn-floating btn-dribbble mx-1" href="https://dribbble.com">
                     <i class="fa fa-dribbble"> </i>
                 </a>
             </li>
