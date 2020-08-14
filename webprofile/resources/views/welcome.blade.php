@@ -8,7 +8,13 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>
             html, body {
@@ -61,6 +67,50 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .welcome hr {
+	            border-top: 2px solid rgba(62,44,100, 0.6);
+	            width: 95%;	
+	            margin-bottom: 2rem;
+            }
+            .fa-java {
+	            color: purple;
+            }
+            .fa-python {
+                color: blue;
+            }
+            .fa-php {
+                color: purple;
+            }
+            .fa-java, .fa-python, .fa-php {
+                font-size: 4em;
+                margin: 1rem;
+            }
+            hr.light {
+                border-top: 1px solid #d5d5d5;
+                width: 75%;
+            }
+           
+            .btn-custom {
+                border-radius: 50px;
+                margin-top: 20px;
+                
+                
+                
+                color: white !important;
+                padding: 10px 20px 10px;
+                margin-right: 20px;
+               
+            }
+            .btn-primary1 {
+            background-color: #005288;
+            color: white;
+            margin-left: 500px;
+        }
+        .btn-primary2 {
+            background-color: #005288;
+            color: white;
+            margin-right: 500px;
+        }
         </style>
     </head>
     <body>
@@ -81,20 +131,44 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Chào Mừng đến với Webprofile
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                
+                <div class="container-fluid padding">
+                    <div class="row welcome text-center">
+                        
+                        <!-- Horizontal Rule -->
+                        <hr>
+                        
+                    </div>
+                    <div class="container-fluid padding">
+                        <div class="row text-center padding">
+                            <div class="col-xs-12 col-sm-6 col-md-6 ">
+                            <a href="https://www.topcv.vn/mau-cv" class="btn btn-primary1 btn-shadow btn-custom" style="font-weight: bold;">TRANG CHỦ</a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                            <a href="https://www.topcv.vn/mau-cv" class="btn btn-primary2 btn-shadow btn-custom" style="font-weight: bold;">TẠO PROFILE</a>
+                            
+                            </div>
+                            
+                        </div>
+                        <hr class="my-4">
+                    </div>
                 </div>
-            </div>
+                <div class="container-fluid padding">
+                    <div class="row padding text-center">
+                        <div class="col-md-12">
+                            <h2>Giới thiệu</h2>
+                            <p>Webprofile giúp Kết nối cơ hội việc làm thông qua CV.</p>
+                            <p>Ứng viên sẽ được nhà tuyển dụng săn đón </p>
+                            <br>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+            
         </div>
+        
+        
     </body>
 </html>
