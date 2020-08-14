@@ -36,7 +36,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto navbar-right">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Tạo profile <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/profile">Tạo profile <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Các công ty</a>
