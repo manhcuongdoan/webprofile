@@ -39,7 +39,7 @@
                             <a class="nav-link" href="/profile">Tạo profile <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Các công ty</a>
+                            <a class="nav-link" href="/company">Các công ty</a>
                         </li>
                     </ul>
 
